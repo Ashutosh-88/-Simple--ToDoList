@@ -1,0 +1,142 @@
+:root {
+  --color-changer: aqua;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: aquamarine;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  position: relative;
+}
+#main-div {
+  margin: 0;
+  /* border: 5px solid black; */
+  width: 100vh;
+  height: 60vh;
+  background-color: aqua;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.342);
+}
+
+#header-div {
+  margin: 0;
+  padding: 0 0 10px 0;
+  height: 40%;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  color: red;
+  justify-content: center;
+  align-items: center;
+}
+#input-div {
+  /* border: 1px solid black; */
+  margin: 0;
+  padding: 0;
+  width: 75vh;
+  overflow: hidden;
+  position: relative;
+}
+
+#input-text {
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 0;
+  padding: 0 0 0 3px;
+  height: 5vh;
+  width: 100%; /* Adjust the width of the input field */
+  text-decoration: none;
+  position: relative; /* Make the input field a relative positioning context */
+}
+
+.btn {
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
+  position: absolute; /* Position the button absolutely relative to the input field */
+  cursor: pointer;
+  background: transparent;
+}
+
+.btn-submit {
+  top: 0;
+  right: 0; /* Move the button to the right, outside the input field */
+  height: 100%;
+  width: 20%;
+}
+#content-div {
+  margin: 0;
+  padding: auto;
+  height: 55%;
+  border-radius: 10px;
+  border: 2px dotted black;
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: relative;
+  scrollbar-width: thin; /* Firefox - thin scrollbar */
+  scrollbar-color: rgba(0, 0, 0, 0.3) transparent; /* Firefox - semi-transparent thumb */
+  transition: all 0.3s ease; /* Smooth transition for scroll */
+}
+
+/* Webkit browsers (Chrome, Safari, Edge) */
+#content-div::-webkit-scrollbar {
+  width: 8px; /* Thin vertical scrollbar */
+  height: 8px; /* Thin horizontal scrollbar */
+}
+
+#content-div::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent thumb */
+  border-radius: 10px;
+}
+
+#content-div::-webkit-scrollbar-track {
+  background: transparent; /* Transparent track */
+}
+
+.listedTask {
+  margin: 0;
+  padding: 4px 0 4px 0;
+  font-size: large;
+  border-bottom: 2px dotted #222;
+  width: 100vh;
+  text-align: center;
+  list-style-position: inside;
+}
+.footer-div {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+
+  left: 0;
+  right: 0;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-changer);
+}
+
+.footer-span {
+  width: 195px;
+  text-align: center;
+  background-color: transparent;
+  border-radius: 20px;
+  background-color: #222;
+  box-shadow: 0 0 10px 5px var(--color-changer);
+  cursor: pointer;
+}
+
+#main-div,
+.footer-span {
+  transition: all 1s ease;
+}
