@@ -21,13 +21,13 @@ This is a simple To Do List where you can add multiple tasks and remove it as pe
 1. Clone or download the repository to your local machine:
 
 ```sh
-git clone https://github.com/Ashutosh-88/-Simple--TODOLIST
+git clone https://github.com/Ashutosh-88/-Simple--ToDoList
 ```
 
 2. Navigate to the project folder in your terminal:
 
 ```sh
-cd -Simple--TODOLIST
+cd -Simple--ToDoList
 ```
 
 3. Open the `index.html` file in your web browser.
