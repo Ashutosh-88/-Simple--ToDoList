@@ -1,4 +1,4 @@
-# Tic Tac Toe Game
+# To Do List
 
 ![Preview_ToDoList](./images/previewToDoList.png)
 
