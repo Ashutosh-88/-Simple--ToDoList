@@ -46,8 +46,6 @@ If you run into any issues, ensure you are using a compatible browser and that J
 
 ## Authors
 
-Contributors names and contact info
-
 - [Ashutosh Tiwari](https://www.linkedin.com/in/ashutosh-tiwari-70b504190/)
 
 ## Version History
